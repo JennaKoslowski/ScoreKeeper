@@ -44,7 +44,8 @@
             android:onClick="add_three_A"
             android:text="@string/three_pt"
             android:textAllCaps="true"
-            android:paddingBottom="8dp"
+            android:textColor="#D9D9D9"
+            android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
 
@@ -54,7 +55,8 @@
             android:onClick="add_two_A"
             android:text="@string/two_pt"
             android:textAllCaps="true"
-            android:paddingBottom="8dp"
+            android:textColor="#D9D9D9"
+            android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
 
@@ -64,7 +66,18 @@
             android:onClick="add_one_A"
             android:text="@string/one_pt"
             android:textAllCaps="true"
-            android:paddingBottom="8dp"
+            android:textColor="#D9D9D9"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="add_three_A"
+            android:text="@string/three_pt"
+            android:textAllCaps="true"
+            android:textColor="#D9D9D9"
+            android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
     </LinearLayout>
@@ -108,7 +121,9 @@
             android:onClick="add_three_B"
             android:text="@string/three_pt"
             android:textAllCaps="true"
-            android:paddingBottom="8dp"
+            android:textColor="#D9D9D9"
+            android:background="#8b0000"
+            android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
 
@@ -117,8 +132,10 @@
             android:layout_height="wrap_content"
             android:onClick="add_two_B"
             android:text="@string/two_pt"
+            android:textColor="#D9D9D9"
+            android:background="#8b0000"
             android:textAllCaps="true"
-            android:paddingBottom="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
 
@@ -128,7 +145,20 @@
             android:onClick="add_one_B"
             android:text="@string/one_pt"
             android:textAllCaps="true"
-            android:paddingBottom="8dp"
+            android:textColor="#D9D9D9"
+            android:background="#8b0000"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="add_three_A"
+            android:text="@string/three_pt"
+            android:textAllCaps="true"
+            android:textColor="#D9D9D9"
+            android:background="#8b0000"
+            android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
     </LinearLayout>
@@ -137,6 +167,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/reset"
+    android:textAllCaps="true"
+    android:textColor="#D9D9D9"
+    android:background="#737CA1"
     android:onClick="reset"
     android:layout_marginBottom="32dp"
     android:layout_centerHorizontal="true"
