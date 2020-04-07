@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">CourtCounter</string>
+    <string name="app_name">Score the football game!</string>
     <string name="team_name">Team A</string>
     <string name="team_name_B">Team B</string>
     <string name="points">0</string>
-    <string name="one_pt">free throw</string>
-    <string name="two_pt">+2 points</string>
-    <string name="three_pt">+3 points</string>
+    <string name="six_pt">Touchdown!!</string>
+    <string name="three_pt">Field goal</string>
+    <string name="two_pt">safety/ two point</string>
+    <string name="one_pt">Extra point</string>
     <string name="reset">reset</string>
 </resources>

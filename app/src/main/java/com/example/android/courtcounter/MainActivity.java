@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+    public void add_six_A(View v) {
+        scoreA=scoreA+6;
+        displayForTeamA(scoreA);
+    }
     public void add_three_A(View v) {
         scoreA=scoreA+3;
         displayForTeamA(scoreA);
@@ -43,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(scoreB));
     }
+
+    public void add_six_B(View v) {
+        scoreB=scoreB+6;
+        displayForTeamB(scoreB);
+    }
+
     public void add_three_B(View v) {
         scoreB=scoreB+3;
         displayForTeamB(scoreB);
