@@ -45,6 +45,7 @@
             android:text="@string/six_pt"
             android:textAllCaps="true"
             android:textColor="#D9D9D9"
+            android:background="#002366"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -56,6 +57,7 @@
             android:text="@string/three_pt"
             android:textAllCaps="true"
             android:textColor="#D9D9D9"
+            android:background="#002366"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -67,6 +69,7 @@
             android:text="@string/two_pt"
             android:textAllCaps="true"
             android:textColor="#D9D9D9"
+            android:background="#002366"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -77,6 +80,7 @@
             android:text="@string/one_pt"
             android:textAllCaps="true"
             android:textColor="#D9D9D9"
+            android:background="#002366"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -168,7 +172,7 @@
     android:layout_height="wrap_content"
     android:text="@string/reset"
     android:textAllCaps="true"
-    android:textColor="#D9D9D9"
+    android:textColor="@android:color/black"
     android:background="#737CA1"
     android:onClick="reset"
     android:layout_marginBottom="32dp"
